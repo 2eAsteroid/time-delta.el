@@ -12,4 +12,4 @@ unless it also needs to be carried over), and returns a formatted string.
 * Who?
 I'll appreciate it if anyone who sees this can find flaws in the code to improve it.
 * When?
-2024-02-21
+The code isn't probably going to change majorly, so this is the end.
