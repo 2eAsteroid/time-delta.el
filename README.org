@@ -1,6 +1,6 @@
 * time-delta.el
 * What?
-A small function for calculating the time delta between two times (of string type) time-one and time-two, of format "HH:MM:SS", and with the assumption that time-one \ge time-two.
+A small function for calculating the time delta between two times (of string type) time-one and time-two, of format "HH:MM:SS", and with the assumption that time-one \le time-two.
 * Why?
 I had to calculate the difference between two times and decided to just write a small function for it.
 * Where?
