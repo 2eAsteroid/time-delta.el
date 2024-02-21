@@ -1,4 +1,4 @@
-* time-delta.el
+* time-delta.el 1.0.0
 ** What?
 A small function for calculating the time delta between two times (of string type) time-one and time-two, of format "HH:MM:SS", and with the assumption that time-one \le time-two.
 ** Why?
