@@ -1,15 +1,15 @@
 * time-delta.el
-* What?
+** What?
 A small function for calculating the time delta between two times (of string type) time-one and time-two, of format "HH:MM:SS", and with the assumption that time-one \le time-two.
-* Why?
+** Why?
 I had to calculate the difference between two times and decided to just write a small function for it.
-* Where?
+** Where?
 It can be used in any situation requiring Emacs and two times of format "HH:MM:SS".
-* How?
+** How?
 It slices the strings of time-one and time-two with the RegEx of "(rx ":")", and iterates through the lists of the sliced strings to find the
 difference of the second, carrying over if needed (it'll subtract the difference from 60, and make the next iteration's difference be subtracted by 1,
 unless it also needs to be carried over), and returns a formatted string.
-* Who?
+** Who?
 I'll appreciate it if anyone who sees this can find flaws in the code to improve it.
-* When?
+** When?
 The code isn't probably going to change majorly, so this is the end.
